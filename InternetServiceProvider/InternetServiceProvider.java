@@ -29,7 +29,7 @@
  			case 'B':
  				if (hours > 20)
  					System.out.println("Your bill total is $" + ((hours-20)+13.95) + " at $13.95 for the first 20 hours and $" + 
- 						(hours-10) + " for the additional " + (hours-10) + " hours.");
+ 						(hours-20) + " for the additional " + (hours-20) + " hours.");
  				else
  					System.out.println("Your bill total is $13.95 for " + hours + " hours.");
  				break;
